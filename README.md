@@ -7,8 +7,8 @@
 |  015280330   | Priyank Jagad      | https://github.com/priyank59     |
 |  015923778   | Aanchal Agarwal    | www.github.com/Aaanchal10        |
 |  015962128   | Abhiram Yenugadhati| https://github.com/neveram       |
-|  015913495   | Praneetha Moturi   |                                  |
------------------------------------------------------------------------|
+|  015913495   | Praneetha Moturi   | https://github.com/praneetha-moturi                                 |
+
 
 ## Abstract
 
