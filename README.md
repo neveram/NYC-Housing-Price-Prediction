@@ -17,7 +17,9 @@ Due to economic cycles, the housing market in New York City has been in ups and 
 ## Dataset:
 
 The dataset we are using is sales of appartments located in  5 different counties in newyork city.
-Dataset : https://www1.nyc.gov/site/finance/taxes/property-annualized-sales-update.page
+Dataset : https://www1.nyc.gov/site/finance/taxes/property-annualized-sales-update.page.
+
+Dataset consists of 20 Columns: Neighborhood, Building Class Category, Tax Class at Present, Address, Appartment No, Residential Units, Commercial Units, Total Units, Land Square feet, Gross Square feet, Year Built, Tax Class at Time of Sale, Building Class at Time of Sale, Sale Price, Sale Data.
 
 ## Procedure
 
