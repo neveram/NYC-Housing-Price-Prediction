@@ -8,11 +8,11 @@ Due to economic cycles, the housing market in New York City has been in ups and 
 
 
 ## Team Members
--------------------------------------------------
-|   SJSU ID    |         Name       |   Github  |
-|--------------|--------------------|-----------|
-|  015280330   | Priyank Jagad      |           |
-|  015923778   | Aanchal Agarwal    |           |
-|  015962128   | Abhiram Yenugadhati|           |
-|  015913495   | Praneetha Moturi   |           |
--------------------------------------------------
+------------------------------------------------------------------------
+|   SJSU ID    |         Name       |             Github               |
+|--------------|--------------------|----------------------------------|
+|  015280330   | Priyank Jagad      | https://github.com/priyank59     |
+|  015923778   | Aanchal Agarwal    | www.github.com/Aaanchal10        |
+|  015962128   | Abhiram Yenugadhati| https://github.com/neveram       |
+|  015913495   | Praneetha Moturi   |                                  |
+-----------------------------------------------------------------------|
