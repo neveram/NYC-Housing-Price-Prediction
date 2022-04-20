@@ -39,10 +39,10 @@ Problem type : Supervised Learning
 
 Algorithms : 
 
-Regression Analysis
-Lasso Regression
-Random Forest Regression 
-Ridge Regression
+- Regression Analysis
+- Lasso Regression
+- Random Forest Regression 
+- Ridge Regression
 
 ## TO-DO :
 
