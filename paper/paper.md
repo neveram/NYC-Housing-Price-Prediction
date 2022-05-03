@@ -1,4 +1,4 @@
-## About this Project : 
+## About the Project : 
 
 Our team aims to predict the prices of the house listings in New York City. 
 We use selected features of the close-by neighbourhoods. We will also perform regression analysis and optimise our chosen model to the best accuracy with feature selection, model tuning and other techniques. 
@@ -45,7 +45,7 @@ We also dropped Easement because it only contains null values.
 
 Definition : 
 
-Classification :
+# Classification :
 
 Definition : 
 
@@ -56,7 +56,7 @@ Based on the scatter plots of Commercial Units vs Sale Price and Residential Uni
 Price, the pattern is opaque and there are lots of 0s, 1s in each plot. Hence we will classify them into six
 groups. Here we will use a new variable “UNIT CATEGORY” representing the pattern of COMMERCIAL UNITS and RESIDENTIAL UNITS.
 
-Categorical features & One-hot encoding: 
+# Categorical features & One-hot encoding: 
 
 Definition :
 
@@ -67,7 +67,7 @@ In order to build models, we will use one-hot encoding to transform BOROUGH, BUI
 After one-hot encoding, we have 48889 instances with 64 columns, which is a little sparse. We will first
 build models and see the performance.
 
-Numerical feature - Rescaling : 
+# Numerical feature - Rescaling : 
 
 Definition : 
 
@@ -78,7 +78,7 @@ Based on the density plots and boxplots of Sale Price , Land Square Feet and
 Gross Square Feet , the distribution is heavily right skewed and sparsely allocated. Hence we will perform
 the log transformation on these three features.
 
-Feature Selection
+## Feature Selection
 
 Definition : 
 
