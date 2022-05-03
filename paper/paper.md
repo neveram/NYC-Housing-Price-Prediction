@@ -17,16 +17,20 @@ Each data instance includes demographics like address, region code, neighbourhoo
 There are a total of 21 features (details are shown in appendix A). 
 We will not investigate the impact of time on sale price in this project, hence SALE DATE will not be utilised to forecast the sale price (target variable) of a NYC property. 
 
-## Data Preprocessing :
+
+# Data Preprocessing :
 
 Definition : 
 
+It is the process of converting raw data into an understandable format. In this step, the Quality of data is checked before applying data mining algorithms.
 
-
-
-## Feature Selection 
+# Feature Selection 
 
 Definition : 
+
+It is used to find the best set of features for the model by reducing the input variable to your model by using only relevant data and getting rid of noise in data.
+
+What we did? 
 
 In this step we dropped the following columns;
 
@@ -41,14 +45,17 @@ Sale Date
 
 We also dropped Easement because it only contains null values.
 
-## Feature Engineering
+# Feature Engineering
 
 Definition : 
+
+It is a set of techniques that allows a system to automatically discover the representations needed for feature detection or classification from raw data.
 
 # Classification :
 
 Definition : 
 
+It is a process of categorizing a given set of data into classes. It helps us segregate vast quantities of data into discrete values such as distinct, like 0/1, True/False, or a pre-defined output label class.
 
 Observation :
 
@@ -60,6 +67,8 @@ groups. Here we will use a new variable “UNIT CATEGORY” representing the pat
 
 Definition :
 
+It is a process of converting categorical data variables so they can be provided to machine learning algorithms to improve predictions.
+It creates a new binary feature for each possible category and assigns a value of 1 to the feature of each sample that corresponds to its original category.
 
 Observation :
 
@@ -69,9 +78,6 @@ build models and see the performance.
 
 # Numerical feature - Rescaling : 
 
-Definition : 
-
-
 Observation :
 
 Based on the density plots and boxplots of Sale Price , Land Square Feet and
@@ -79,8 +85,6 @@ Gross Square Feet , the distribution is heavily right skewed and sparsely alloca
 the log transformation on these three features.
 
 ## Feature Selection
-
-Definition : 
 
 
 Observation :
