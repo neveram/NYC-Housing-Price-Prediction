@@ -1,3 +1,5 @@
+## CMPE 255 - Team Project - Spring 2022
+
 # NYC-Housing-Price-Prediction
 
 ## Team Members
@@ -53,6 +55,9 @@ Algorithms :
 - Analyzing and visualization of the distribution of data
 - Analysing Mean, Median sale price of buildings in different years
 
+## Measurement of Success :
+
+- The aim of our project is to find the best optimal model with parameters from different regression models to predict the house listing’s prices in New York city.
 
 
 
