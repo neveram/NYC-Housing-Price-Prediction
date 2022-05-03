@@ -1,4 +1,4 @@
-## About the Project : 
+# About the Project : 
 
 Our team aims to predict the prices of the house listings in New York City. 
 We use selected features of the close-by neighbourhoods. We will also perform regression analysis and optimise our chosen model to the best accuracy with feature selection, model tuning and other techniques. 
@@ -9,7 +9,7 @@ Our Final Resulting model will create potential benefits in multiple areas beyon
 - Enhances a balanced leverage between the buyers and sellers.
 - Understanding the housing market in general for economics, policy makers or interested stakeholders or decision makers.
 
-## About Dataset :
+# About Dataset :
 
 The NYC Department of Finance 1 provided the data for this study. 
 The original dataset contains 167719 items of property sales data from January 2018 to December 2019 in New York City (over a two-year period). 
@@ -24,7 +24,7 @@ Definition :
 
 It is the process of converting raw data into an understandable format. In this step, the Quality of data is checked before applying data mining algorithms.
 
-# Feature Selection 
+## Feature Selection 
 
 Definition : 
 
@@ -45,13 +45,13 @@ Sale Date
 
 We also dropped Easement because it only contains null values.
 
-# Feature Engineering
+## Feature Engineering
 
 Definition : 
 
 It is a set of techniques that allows a system to automatically discover the representations needed for feature detection or classification from raw data.
 
-# Classification :
+## Classification :
 
 Definition : 
 
@@ -63,7 +63,7 @@ Based on the scatter plots of Commercial Units vs Sale Price and Residential Uni
 Price, the pattern is opaque and there are lots of 0s, 1s in each plot. Hence we will classify them into six
 groups. Here we will use a new variable “UNIT CATEGORY” representing the pattern of COMMERCIAL UNITS and RESIDENTIAL UNITS.
 
-# Categorical features & One-hot encoding: 
+## Categorical features & One-hot encoding: 
 
 Definition :
 
@@ -76,7 +76,7 @@ In order to build models, we will use one-hot encoding to transform BOROUGH, BUI
 After one-hot encoding, we have 48889 instances with 64 columns, which is a little sparse. We will first
 build models and see the performance.
 
-# Numerical feature - Rescaling : 
+## Numerical feature - Rescaling : 
 
 Observation :
 
@@ -98,7 +98,7 @@ the Sale Date, but also some indicators of economic conditions corresponding to 
 Unit, Commercial and Residential Unit, Land Square Feet and Gross Square Feet. The commercial unit and residential unit can be further explored if we can design and apply reasonable binning and
 weighting methods with relevant information from other data sources.
 
-## Result after Data Preprocessing : 
+# Result after Data Preprocessing : 
 
 The cleansed data now has 81030 rows and 19 columns after specific data cleaning techniques described in the above Data Preprocessing steps.
 
