@@ -12,7 +12,7 @@ Our Final Resulting model will create potential benefits in multiple areas beyon
 # About Dataset :
 
 The NYC Department of Finance 1 provided the data for this study. 
-The original dataset contains 167719 items of property sales data from January 2018 to December 2019 in New York City (over a two-year period). 
+The original dataset contains 167719 items of property sales data from January 2020 to December 2021 in New York City (over a two-year period). 
 Each data instance includes demographics like address, region code, neighbourhood, building information like kind, number of units, building land area, and sale date. 
 There are a total of 21 features (details are shown in appendix A). 
 We will not investigate the impact of time on sale price in this project, hence SALE DATE will not be utilised to forecast the sale price (target variable) of a NYC property. 
@@ -38,9 +38,8 @@ Neighbourhood
 Address
 Apartment numbers
 Zip code
-Building class as of final roll 18/19
-Building class at time of sale
-Tax class as of final roll 18/19
+Building class at present
+Building classat time of sale
 Sale Date
 
 We also dropped Easement because it only contains null values.
