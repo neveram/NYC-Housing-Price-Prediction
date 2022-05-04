@@ -45,6 +45,11 @@ Algorithms :
 - Lasso Regression
 - Random Forest Regression 
 - Ridge Regression
+- XGBoost
+- SVM
+- Decision Tree
+- Cat Boost
+- Artificial Neural Network
 
 ## TO-DO :
 
