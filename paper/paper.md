@@ -54,13 +54,12 @@ It is a set of techniques that allows a system to automatically discover the rep
 ## Classification :
 
 Definition : 
-
 It is a process of categorizing a given set of data into classes. It helps us segregate vast quantities of data into discrete values such as distinct, like 0/1, True/False, or a pre-defined output label class.
 
 Observation :
 
-Based on the scatter plots of Commercial Units vs Sale Price and Residential Units vs Sale
-Price, the pattern is opaque and there are lots of 0s, 1s in each plot. Hence we will classify them into six
+The pattern is opaque based on the scatter plots of Commercial Units vs Sale Price and Residential Units vs Sale
+Price. There are a lot of 0s and 1s in each plot. Hence we will classify them into six
 groups. Here we will use a new variable “UNIT CATEGORY” representing the pattern of COMMERCIAL UNITS and RESIDENTIAL UNITS.
 
 ## Categorical features & One-hot encoding: 
@@ -100,6 +99,10 @@ weighting methods with relevant information from other data sources.
 
 # Result after Data Preprocessing : 
 
-The cleansed data now has 81030 rows and 19 columns after specific data cleaning techniques described in the above Data Preprocessing steps.
+The cleansed data now has 81030 rows and 19 columns after specific data cleaning techniques described in the above Data Preprocessing stepS.
 
+Exploratory Data Analysis
+Target Variable[Sale Price]:
+
+ It is observed that quite a few sale prices were absurdly small: $0 most commonly(40% of the sale price is zero). Hence, the distribution is sparse from the raw price. It is also observed that based on the information from the original resource, these sales denote the transfer of ownership from parents to the child after the parents leave home on account of retirement. Therefore, we set a reasonable range for sale price and eliminate the instances which are more than $12 million and less than $50000 since it will elimiate the special cases. Following which, we perform the log transformation. 
 
