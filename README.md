@@ -33,7 +33,7 @@ The dataset we are using is sales of appartments located in  5 different countie
 
 Dataset : https://www1.nyc.gov/site/finance/taxes/property-annualized-sales-update.page.
 
-Dataset consists of 20 Columns: Neighborhood, Building Class Category, Tax Class at Present, Address, Appartment No, Residential Units, Commercial Units, Total Units, Land Square feet, Gross Square feet, Year Built, Tax Class at Time of Sale, Building Class at Time of Sale, Sale Price, Sale Data.
+Dataset consists of 21 Columns: Neighborhood, Building Class Category, Tax Class at Present, Address, Appartment No, Residential Units, Commercial Units, Total Units, Land Square feet, Gross Square feet, Year Built, Tax Class at Time of Sale, Building Class at Time of Sale, Sale Price, Sale Data.
 
 ## Methodology
 
@@ -41,13 +41,15 @@ Problem type : Supervised Learning
 
 Algorithms : 
 
-- Regression Analysis
+- Linear Regression
 - Lasso Regression
-- Random Forest Regression 
 - Ridge Regression
+- Elastic Net
+- Light Gradient Boosting Machine 
 - XGBoost
-- SVM
+- K-Neighbors Nearest Regression 
 - Decision Tree
+- Random Forest 
 - Cat Boost
 - Artificial Neural Network
 
