@@ -53,7 +53,7 @@ Algorithms :
 - Decision Tree
 - Random Forest 
 - Cat Boost
-- Artificial Neural Network
+- Ada Boost
 
 ## TO-DO :
 
